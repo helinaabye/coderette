@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 import { Auth } from './components/auth';
+import Blog from './components/blog';
 
 function App() {
   return (
     <div className="App">
       <Auth />
+      <Blog />
     </div>
   );
 }
